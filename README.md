@@ -44,8 +44,9 @@ import requests
 ### Athena Tables
 
 1. Travel-Recomennded-Cities
-   
-![image](https://github.com/user-attachments/assets/b03d0ef9-59f3-495f-a2d6-05bc8ea4ac1a)
+
+![image](https://github.com/user-attachments/assets/86f55f79-676b-45ac-84e9-a8aee0f973db)
+
 
 
 
