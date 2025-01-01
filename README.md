@@ -39,3 +39,12 @@ import requests
 5. Data Transformation: A second Lambda function processes the raw data by cleansing, normalizing, and calculating metrics (e.g., Comfort Index).The transformed data is stored in the transformed folder in S3 in CSV format.
 6. Data Cataloging: AWS Glue Crawler scans the transformed data in S3, updates the schema, and stores metadata in the AWS Glue Data Catalog.
 7. Data Querying and Analysis:Amazon Athena enables SQL queries on the transformed data stored in the Glue Data Catalog.Queries provide insights such as travel recommendations, city comfort rankings, and weather patterns.
+
+
+### Sample Output
+
+Sample Output:
+City	Comfort Index	Rank
+Sydney	0.87	1
+Cape Town	0.85	2
+Tokyo	0.82	3
