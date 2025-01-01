@@ -19,6 +19,7 @@ Includes the final output with columns:
 City: Name of the city.
 Comfort Index: A calculated score representing travel comfort.
 Rank: Ranking of cities based on their Comfort Index.
+
 Use Case:
 This pipeline is ideal for travel agencies, weather services, or any platform offering travel recommendations. It helps users identify cities with favorable weather conditions for travel while highlighting potential weather-related risks.
 
