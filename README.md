@@ -25,14 +25,17 @@ The Travel-Recommendation-ETL-Pipeline is a data processing workflow designed to
 ```
 pip install pandas
 pip install boto3
-pip install spotipy
+import json
 pip install numpy
+from datetime import datetime
+import requests
+
 ```
 
 ### Execution Flow
-1. The project extracts data through the Spotify API.
-2. CloudWatch triggers a Lambda function once a week.
-3. The Lambda function extracts data and stores it in the raw folder in S3.
+1. The pipeline extracts data through the OpenWeather API.
+2. CloudWatch triggers a Lambda function once a Day.
+3. The Lambda function extracts data and stores it into the raw folder in S3.
 4. Another Lambda function transforms the raw data and stores it in the transformed folder in S3.
-5. AWS Glue Crawler is used to crawl the album, artists, and songs data and provide it to the data catalog.
+5. AWS Glue Crawler is used to crawl the Travel Advised and Recommended cities data and provide it to the data catalog.
 6. Amazon Athena is used to query and analyze data in the data catalog.
