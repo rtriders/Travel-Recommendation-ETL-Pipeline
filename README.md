@@ -1,14 +1,14 @@
-# Spotify ETL End-To-End Pipeline Project
+# Travel Recommendation ETL Pipeline
 
 ### Overview
 
- Welcome to the repository for an ETL pipeline that extracts data from the Spotify API, transforms it, and loads it into AWS. This pipeline provides a comprehensive end-to-end solution for retrieving and analyzing music data from Spotify.
+The Travel-Recommendation-ETL-Pipeline is a data processing workflow designed to analyze weather conditions from various global cities and generate insights for travel recommendations. The pipeline evaluates cities based on a Comfort Index, ranking them to help users identify optimal travel destinations.
  
  ### Architecture
  ![Architecture Diagram](https://github.com/ameetsinghmanyal/spotify-etl-aws-data-pipeline-project/blob/main/Architecture.jpeg)
  
- ### About Spotify API
- The [Spotify API](https://developer.spotify.com/documentation/) is a web-based platform that provides developers with access to Spotify's music data and services. It allows developers to build applications that can interact with Spotify's music streaming platform, enabling users to browse and play music, manage playlists, search for songs, and access metadata about artists, albums, and tracks.
+ ### About OpenWeather API
+ The [OpenWeather API](https://openweathermap.org/guide) The OpenWeather API is a comprehensive weather data service that provides real-time, historical, and forecast weather information for locations worldwide. It is widely used by developers, businesses, and researchers to integrate weather-related functionalities into their applications or systems.
  
  In this project we have used the [**Top 50 - India**](https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg) Playlist as our data    
  
