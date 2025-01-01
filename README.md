@@ -8,9 +8,9 @@ The Travel-Recommendation-ETL-Pipeline is a data processing workflow designed to
  ![Architecture Diagram](https://github.com/rtriders/Travel-Recommendation-ETL-Pipeline/blob/main/Travel_Recomenndation_Pipeline_Architecture.jpeg)
  
  ### About OpenWeather API
- The [OpenWeather API](https://openweathermap.org/guide) The OpenWeather API is a comprehensive weather data service that provides real-time, historical, and forecast weather information for locations worldwide. It is widely used by developers, businesses, and researchers to integrate weather-related functionalities into their applications or systems.
+ The [OpenWeather API](https://openweathermap.org/guide) is a comprehensive weather data service that provides real-time, historical, and forecast weather information for locations worldwide. It is widely used by developers, businesses, and researchers to integrate weather-related functionalities into their applications or systems.
  
- In this project we have used the [**Top 50 - India**](https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg) Playlist as our data    
+ In this project we have used the [**Major 50 - Cities**] as the data for our piepline.
  
  ### Services Used
  
