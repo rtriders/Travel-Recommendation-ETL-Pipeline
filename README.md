@@ -32,14 +32,9 @@ import requests
 
 ### Execution Flow
 
-1. Data Extraction:The pipeline extracts weather data through the OpenWeather API.
-
-Trigger Mechanism:AWS CloudWatch Event Rule triggers a Lambda function daily to start the pipeline.
-
-Raw Data Storage:The Lambda function extracts weather data in JSON format and stores it in the raw folder in an S3 bucket.
-
-Data Transformation:A second Lambda function processes the raw data by cleansing, normalizing, and calculating metrics (e.g., Comfort Index).The transformed data is stored in the transformed folder in S3 in CSV format.
-
-Data Cataloging:AWS Glue Crawler scans the transformed data in S3, updates the schema, and stores metadata in the AWS Glue Data Catalog.
-
-Data Querying and Analysis:Amazon Athena enables SQL queries on the transformed data stored in the Glue Data Catalog.Queries provide insights such as travel recommendations, city comfort rankings, and weather patterns.
+1. Data Extraction: The pipeline extracts weather data through the OpenWeather API.
+2. Trigger Mechanism: AWS CloudWatch Event Rule triggers a Lambda function daily to start the pipeline.
+3. Raw Data Storage: The Lambda function extracts weather data in JSON format and stores it in the raw folder in an S3 bucket.
+4. Data Transformation: A second Lambda function processes the raw data by cleansing, normalizing, and calculating metrics (e.g., Comfort Index).The transformed data is stored in the transformed folder in S3 in CSV format.
+5. Data Cataloging: AWS Glue Crawler scans the transformed data in S3, updates the schema, and stores metadata in the AWS Glue Data Catalog.
+6. Data Querying and Analysis:Amazon Athena enables SQL queries on the transformed data stored in the Glue Data Catalog.Queries provide insights such as travel recommendations, city comfort rankings, and weather patterns.
