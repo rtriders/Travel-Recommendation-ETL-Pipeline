@@ -41,6 +41,8 @@ import requests
 7. Data Querying and Analysis:Amazon Athena enables SQL queries on the transformed data stored in the Glue Data Catalog.Queries provide insights such as travel recommendations, city comfort rankings, and weather patterns.
 
 
+### Athena Table
+
 ![image](https://github.com/user-attachments/assets/b03d0ef9-59f3-495f-a2d6-05bc8ea4ac1a)
 
 
